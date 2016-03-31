@@ -68,6 +68,7 @@ boolean laser = false;
 boolean calibrated = false;
 boolean calibration = false;
 boolean randomSize = false;
+boolean autoModeEnable = true;
 
 int c = 0;  // used for serial receive
 
@@ -130,7 +131,7 @@ void loop()
     serialMode();
   }
 
-  if (autoModeRead())
+  if (autoModeRead() && autoModeEnable)
   {
     autoMode();
   }
@@ -159,6 +160,7 @@ void serialEvent() {
 
       case 'D': //stop
         setCurrentPattern(0, 0);
+        autoModeEnable = false;
         calibration = false;
         Serial.println("Stopped");
         break;
@@ -266,6 +268,7 @@ void serialEvent() {
 
       case 'X': //
         setCurrentPattern(4, 4);
+        autoModeEnable = true;
         currentDetails("Star");
         break;
     }
