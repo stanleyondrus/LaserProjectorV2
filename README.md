@@ -1,4 +1,4 @@
-#  Arduino Laser Scanner
+#  Laser Projector V1
 
     - XY - 2 dimensional laser scanning
     - Automatic mirror calibration
