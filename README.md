@@ -1,4 +1,8 @@
-#  Laser Projector V1
+#  LaserProjects V1 | StanleyProjects.com
+
+https://stanleyprojects.com/projects/laserprojector_v1/
+
+https://hackaday.com/2016/11/23/cheap-dual-mirror-laser-projector/
 
     - XY - 2 dimensional laser scanning
     - Automatic mirror calibration
