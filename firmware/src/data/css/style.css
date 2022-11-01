@@ -1,0 +1,46 @@
+body {
+	margin: 0px;
+}
+
+header {
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 3px;
+  margin-bottom: 20px;
+  color: white;
+  background-image: radial-gradient(#09daab, #00abff);
+}
+
+section {
+  //padding: 10px 0;
+}
+
+a:link {
+  color: #06daab;
+  text-decoration: none;
+}
+
+#manual_canvas {
+  border: 1px solid #00224b;
+  background-image: radial-gradient(#003bff, #00abff);
+}
+
+.btn_preset {
+	width: 60px;
+	height: 60px;
+	padding: 4px;
+}
+
+.active {
+  color: #222;
+  border-color: #222;
+  background-color: #eee;
+}
+
+footer {
+  text-align: center;
+}
+
+p {
+	margin: 5px;
+}

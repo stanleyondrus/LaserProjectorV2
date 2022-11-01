@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'>
+  <title>LaserProjector V2</title>
+  <link rel="icon" type="image/png" sizes="144x144"  href="img/favicon.png">
+  <link href="css/skeleton.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+      <h1>LaserProjector V2</h1>
+      <h5>by StanleyProjects.com</h5>
+  </header>
+
+  <section id="section-mode-select">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h2>Mode</h2>
+          <p class="lead"></p>
+          <button class="btn_handle btn_mode" id="M0">OFF</button>
+          <button class="btn_handle btn_mode" id="M1">MAN</button>
+          <button class="btn_handle btn_mode" id="M2">AUT</button>
+		  <button class="btn_handle btn_mode" id="M3">EXT</button>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <hr/>
+	
+  <section id="section-mode-manual" style="display:none">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h2>Manual mode</h2>
+             <button class="btn_handle btn_preset" id="P1"></button>
+             <button class="btn_handle btn_preset" id="P2"></button>
+			 <button class="btn_handle btn_preset" id="P3"></button>
+			 <button class="btn_handle btn_preset" id="P4"></button>
+			 <button class="btn_handle btn_preset" id="P5"></button>
+			 </br>
+			 <button class="btn_handle btn_preset" id="P6"></button>
+             <button class="btn_handle btn_preset" id="P7"></button>
+			 <button class="btn_handle btn_preset" id="P8"></button>
+			 <button class="btn_handle btn_preset" id="P9"></button>
+			 <button class="btn_handle btn_preset" id="P10"></button>
+			 </br>
+			 <button class="btn_handle btn_preset" id="P11"></button>
+             <button class="btn_handle btn_preset" id="P12"></button>
+			 <button class="btn_handle btn_preset" id="P13"></button>
+			 <button class="btn_handle btn_preset" id="P14"></button>
+			 <button class="btn_handle btn_preset" id="P15"></button>
+			  </br>
+			 <button class="btn_handle btn_preset" id="P16"></button>
+             <button class="btn_handle btn_preset" id="P17"></button>
+			 <button class="btn_handle btn_preset" id="P18"></button>
+			 <button class="btn_handle btn_preset" id="P19"></button>
+			 <button class="btn_handle btn_preset" id="P20"></button>
+		</div>
+      </div>
+	  </br>
+	   <div class="row">
+        <div class="twelve columns">
+			 <h4>Scaling<h4>
+			 <button class="btn_handle btn_scaling" id="S1">1x</button>
+             <button class="btn_handle btn_scaling" id="S2">0.5x</button>
+			 <h4>Speed<h4>
+			 <button class="btn_handle btn_speed" id="V1">1</button>
+             <button class="btn_handle btn_speed" id="V2">2</button>
+             <button class="btn_handle btn_speed" id="V3">3</button>
+        </div>
+      </div>  
+    </div>
+	<hr/>
+  </section>
+  
+
+  
+    <section id="section-mode-external" style="display:none">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h2>External mode</h2>
+             <canvas id="manual_canvas" width="300" height="300"></canvas>
+        </div>
+      </div>
+    </div>
+	<hr/>
+  </section>
+
+  <section id="section-settings">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <h2>Settings</h2>
+			 Laser Intensity: <input class="enabled" id="laser_intensity" type="range" min="0" max="255" step="1" oninput="sendLaserIntensity();" value="255">	  
+			  </br></br>
+			  <button class="btn_handle" id="H">Home</button>
+			  </br>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr/>
+
+  <footer>
+    <p>Copyright &copy; <a href="https://stanleyprojects.com" target=”_blank”>StanleyProjects.com</a></p>
+	<p id="fw-ver">FW VER x.x</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+
+</body>
+</html>

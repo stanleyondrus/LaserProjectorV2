@@ -1,0 +1,5 @@
+"Ref","Value","MPN","Manufacturer","Package","Datasheet"
+"C1","10nF","CL05B103KB5NNNC","Samsung Electro-Mechanics","0402","https://datasheet.lcsc.com/szlcsc/1810191223_Samsung-Electro-Mechanics-CL05B103KB5NNNC_C15195.pdf"
+"R1","100R","AC0402FR-07100RL","Yageo","0402","https://eu.mouser.com/datasheet/2/447/PYu-AC_51_RoHS_L_7-1714230.pdf"
+"R2","220R","0402WGF2200TCE","UNI-ROYAL","0402","https://datasheet.lcsc.com/szlcsc/1811011214_UNI-ROYAL-Uniroyal-Elec-0402WGF2200TCE_C25091.pdf"
+"U1","QRE1113","","","","http://www.onsemi.com/pub/Collateral/QRE1113-D.PDF"
