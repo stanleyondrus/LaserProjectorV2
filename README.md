@@ -14,6 +14,7 @@ LaserProjector V2 is a battery-powered, ESP32-based laser XY scanner using stepp
 
 ## Links
 - [Documentation [stanleyprojects.com]](https://stanleyprojects.com/projects/laserprojector_v2/)
+- [Article [hackaday.com]](https://hackaday.com/2022/11/02/laser-project-relies-on-steppers-rather-than-galvanometers/)
 - [Video [youtube.com]](https://youtu.be/w1O48Ysdiiw)
 - [Project [hackaday.io]](https://hackaday.io/project/188046-laserprojector-v2)
 - [Project [hackster.io]](https://www.hackster.io/stanleyprojects/laserprojector-v2-fa77cf)
