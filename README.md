@@ -45,13 +45,15 @@ const char* password = "<your_pass>";
     - PlatformIO > esp32serial > General > Upload
 
 ## Pre-built binaries
+The binary is fully contained (bootloader, firmware, and filesystem), so it can be flashed to address 0x0.
+
+The easiest way is to use this web tool: https://stanleyprojects.com/projects/laserprojector_v2/install
+
 After the firmware is loaded, any subsequent updates can be done OTA in browser by visiting _http://\<esp32-ip-address\>/update_
 
-The pre-built binaries are located in __*firmware/bin*__
-
-|Version|Firmware|Filesystem|
-|-|-|-|
-|0.1|[LaserProjectorV2_firmware_v0.1.bin](https://github.com/stanleyondrus/LaserProjectorV2/releases/download/v0.1/LaserProjectorV2_firmware_v0.1.bin)|[LaserProjectorV2_filesystem_v0.1.bin](https://github.com/stanleyondrus/LaserProjectorV2/releases/download/v0.1/LaserProjectorV2_filesystem_v0.1.bin)|
+|Version|Firmware|
+|-|-|
+|0.1|[LaserProjectorV2_firmware_v0.1.bin](https://github.com/stanleyondrus/LaserProjectorV2/releases/download/v0.1/LaserProjectorV2_v0.1.bin)|
 
 
 ## Credits
