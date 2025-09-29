@@ -1,5 +1,5 @@
-[![](https://stanleyprojects.com/projects/laserprojector_v2/thumbnails/banner1.png)](https://stanleyprojects.com/projects/laserprojector_v2/)
-[![](https://stanleyprojects.com/projects/laserprojector_v2/thumbnails/banner2.png)](https://stanleyprojects.com/projects/laserprojector_v2/)
+[![](https://stanleyprojects.com/projects/laserprojector-v2/thumbs/banner1.png)](https://stanleyprojects.com/projects/laserprojector-v2/)
+[![](https://stanleyprojects.com/projects/laserprojector-v2/thumbs/banner2.png)](https://stanleyprojects.com/projects/laserprojector-v2/)
 
 ## Introduction
 LaserProjector V2 is a battery-powered, ESP32-based laser XY scanner using stepper motors to deflect the beam. It has auto-homing functionality, and can be controlled wirelessly (Wi-Fi & Bluetooth).
@@ -13,16 +13,16 @@ LaserProjector V2 is a battery-powered, ESP32-based laser XY scanner using stepp
 - Battery-powered
 
 ## Links
-- [Documentation [stanleyprojects.com]](https://stanleyprojects.com/projects/laserprojector_v2/)
+- [Documentation [stanleyprojects.com]](https://stanleyprojects.com/projects/laserprojector-v2/)
 - [Article [hackaday.com]](https://hackaday.com/2022/11/02/laser-project-relies-on-steppers-rather-than-galvanometers/)
 - [Video [youtube.com]](https://youtu.be/w1O48Ysdiiw)
 - [Project [hackaday.io]](https://hackaday.io/project/188046-laserprojector-v2)
 - [Project [hackster.io]](https://www.hackster.io/stanleyprojects/laserprojector-v2-fa77cf)
 
 ## Design
-![](https://stanleyprojects.com/projects/laserprojector_v2/spec_table.png)
-![](https://stanleyprojects.com/projects/laserprojector_v2/layout_render.png)
-![](https://stanleyprojects.com/projects/laserprojector_v2/schematic.png)
+![](https://stanleyprojects.com/projects/laserprojector-v2/spec_table.png)
+![](https://stanleyprojects.com/projects/laserprojector-v2/layout_render.png)
+![](https://stanleyprojects.com/projects/laserprojector-v2/schematic.png)
 
 ## How to build your own release
 ### Prerequisites
@@ -47,7 +47,7 @@ const char* password = "<your_pass>";
 ## Pre-built binaries
 The binary is fully contained (bootloader, firmware, and filesystem), so it can be flashed to address 0x0.
 
-The easiest way is to use this web tool: https://stanleyprojects.com/projects/laserprojector_v2/install
+The easiest way is to use this web tool: https://stanleyprojects.com/projects/laserprojector-v2/install/index.html
 
 After the firmware is loaded, any subsequent updates can be done OTA in browser by visiting _http://\<esp32-ip-address\>/update_
 
